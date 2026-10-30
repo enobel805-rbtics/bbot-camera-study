@@ -100,6 +100,7 @@ const green=new THREE.LineBasicMaterial({color:0x66e0a3}), amber=new THREE.LineB
 function clearGroup(group){while(group.children.length){const c=group.children.pop();if(c.geometry)c.geometry.dispose();if(c.material){if(Array.isArray(c.material))c.material.forEach(m=>m.dispose());else c.material.dispose();}}}
 function cameraPose(p){const [rx,ry,heading]=p.robot, ox=-.3240559459881163, oy=-.2921000401359349, oz=.208003897125004;const cx=rx+Math.cos(heading)*ox-Math.sin(heading)*oy,cy=ry+Math.sin(heading)*ox+Math.cos(heading)*oy;const yaw=heading+Math.PI,pitch=THREE.MathUtils.degToRad(27.5);const forward=new THREE.Vector3(Math.cos(yaw)*Math.cos(pitch),Math.sin(pitch),Math.sin(yaw)*Math.cos(pitch)).normalize();return {center:v(cx,cy,oz),forward,heading};}
 function setPose(index){const p=poses[index];clearGroup(robotGroup);clearGroup(frustumGroup);clearGroup(rayGroup);const [rx,ry,heading]=p.robot;
+ const robotCenter=v(rx,ry,.18);camera.position.add(robotCenter.clone().sub(controls.target));controls.target.copy(robotCenter);controls.update();
  const robot=new THREE.Group();robot.position.copy(v(rx,ry,.18));robot.rotation.y=-heading;robotGroup.add(robot);
  const base=new THREE.Mesh(new THREE.BoxGeometry(.711,.25,.711),mat(0x5d737c,.96));base.position.y=0;robot.add(base);
  const deck=new THREE.Mesh(new THREE.BoxGeometry(.63,.08,.63),mat(0x87969b));deck.position.y=.15;robot.add(deck);
