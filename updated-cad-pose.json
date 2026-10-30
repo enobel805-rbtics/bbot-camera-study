@@ -1,0 +1,62 @@
+{
+  "sourceSnapshot": "sources/bbot-main-updated-camera-20261029.step",
+  "sha256": "12085900d004c36d3ad5fb90efd73d99bf28be5d899a20e1bb74127230551698",
+  "vendorToCadRotation": [
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.8870108331782217,
+      0.4617486132350339
+    ],
+    [
+      0.0,
+      0.4617486132350339,
+      -0.8870108331782217
+    ]
+  ],
+  "vendorToCadTranslationMm": [
+    -208.57244013593487,
+    296.5799082671374,
+    207.5957597028731
+  ],
+  "opticalCenterCadMm": [
+    -292.1000401359349,
+    324.0559459881163,
+    208.00389712500396
+  ],
+  "opticalCenterWpiM": [
+    -0.3240559459881163,
+    -0.2921000401359349,
+    0.20800389712500397
+  ],
+  "opticalRotationWpi": [
+    [
+      -0.8870108331782217,
+      0.0,
+      -0.4617486132350339
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.4617486132350339,
+      0.0,
+      -0.8870108331782217
+    ]
+  ],
+  "yawDeg": 180.0,
+  "pitchWpiDeg": -27.499999999999993,
+  "pitchUpDeg": 27.499999999999993,
+  "rollDeg": 180.0,
+  "registrationMedianVertexErrorMm": 4.788655626398401e-07,
+  "registrationMeanVertexErrorMm": 0.043421256144421896,
+  "cameraVolumeMm3": 106407.90872679703,
+  "cameraIndex": 8,
+  "opticalCenterNote": "Vendor lens-front center approximation; true calibrated entrance pupil can differ by millimeters."
+}

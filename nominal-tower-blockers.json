@@ -1,0 +1,101 @@
+[
+  {
+    "shot": 0,
+    "hits": []
+  },
+  {
+    "shot": 1,
+    "hits": [
+      {
+        "tag": 15,
+        "sampleEnd": [
+          16.5329616,
+          4.2410125999999995,
+          0.4699
+        ],
+        "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
+        "point": [
+          15.500604231842107,
+          3.8758250775886536,
+          0.32441116186131014
+        ],
+        "distanceM": 0.8838570966009462
+      },
+      {
+        "tag": 15,
+        "sampleEnd": [
+          16.5329616,
+          4.2410125999999995,
+          0.55245
+        ],
+        "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
+        "point": [
+          15.500604231842107,
+          3.8758250775886536,
+          0.3611028865509618
+        ],
+        "distanceM": 0.8894335368602394
+      },
+      {
+        "tag": 15,
+        "sampleEnd": [
+          16.5329616,
+          4.2410125999999995,
+          0.635
+        ],
+        "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
+        "point": [
+          15.500604231842107,
+          3.8758250775886536,
+          0.3977946112406136
+        ],
+        "distanceM": 0.89647823793608
+      },
+      {
+        "tag": 15,
+        "sampleEnd": [
+          16.5329616,
+          4.3235626,
+          0.4699
+        ],
+        "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
+        "point": [
+          15.434499763146952,
+          3.886196494111906,
+          0.3150951414183169
+        ],
+        "distanceM": 0.8248968366191627
+      },
+      {
+        "tag": 15,
+        "sampleEnd": [
+          16.5329616,
+          4.3235626,
+          0.55245
+        ],
+        "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
+        "point": [
+          15.434499763146952,
+          3.886196494111906,
+          0.3488504440721809
+        ],
+        "distanceM": 0.8299542193681257
+      },
+      {
+        "tag": 15,
+        "sampleEnd": [
+          16.5329616,
+          4.3235626,
+          0.635
+        ],
+        "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
+        "point": [
+          15.434499763146952,
+          3.886196494111906,
+          0.38260574672604486
+        ],
+        "distanceM": 0.836344463928659
+      }
+    ]
+  }
+]
