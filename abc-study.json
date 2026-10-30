@@ -21,18 +21,18 @@
       ]
     ],
     "vendorToCadTranslationMm": [
-      375.6276401359349,
+      -208.57244013593487,
       296.5799082671374,
       207.5957597028731
     ],
     "opticalCenterCadMm": [
-      292.1000401359349,
+      -292.1000401359349,
       324.0559459881163,
       208.00389712500396
     ],
     "opticalCenterWpiM": [
       -0.3240559459881163,
-      0.2921000401359349,
+      -0.2921000401359349,
       0.20800389712500397
     ],
     "opticalRotationWpi": [
@@ -61,8 +61,8 @@
     "cameraVolumeMm3": 106407.90872679703,
     "cameraIndex": 8,
     "opticalCenterNote": "Vendor lens-front center approximation; true calibrated entrance pupil can differ by millimeters.",
-    "side": "left",
-    "sideSource": "User correction: use robot-left (+Y). Original snapshot sign is superseded."
+    "side": "left in the user CAD view",
+    "sideSource": "User clarified the opposite side from the prior +Y assumption. Camera is at CAD X negative, corresponding to simulation robot Y negative."
   },
   "fieldDimensions": {
     "length": 16.541,
@@ -116,102 +116,102 @@
     "yawMin": 120,
     "yawMax": 240,
     "stepDeg": 0.5,
-    "bestYawDeg": 191.0,
+    "bestYawDeg": 174.5,
     "bestScore": [
-      86,
-      160,
-      78.52086338867196,
-      -11.0
+      156,
+      162,
+      79.1605228708678,
+      -5.5
     ],
     "top10": [
       {
-        "yawDeg": 191.0,
+        "yawDeg": 174.5,
         "score": [
-          86,
-          160,
-          78.52086338867196,
-          -11.0
+          156,
+          162,
+          79.1605228708678,
+          -5.5
         ]
       },
       {
-        "yawDeg": 191.5,
+        "yawDeg": 174.0,
         "score": [
-          86,
-          160,
-          78.49911678739949,
-          -11.5
+          156,
+          162,
+          79.14718303852891,
+          -6.0
         ]
       },
       {
-        "yawDeg": 192.0,
+        "yawDeg": 172.0,
         "score": [
-          86,
-          160,
-          78.48240046562836,
-          -12.0
+          156,
+          162,
+          79.14448781373227,
+          -8.0
         ]
       },
       {
-        "yawDeg": 192.5,
+        "yawDeg": 173.5,
         "score": [
-          86,
-          160,
-          78.47070833760182,
-          -12.5
+          156,
+          162,
+          79.13891170333466,
+          -6.5
         ]
       },
       {
-        "yawDeg": 193.0,
+        "yawDeg": 172.5,
         "score": [
-          86,
-          160,
-          78.45298406935535,
-          -13.0
+          156,
+          162,
+          79.1375643358648,
+          -7.5
         ]
       },
       {
-        "yawDeg": 193.5,
+        "yawDeg": 173.0,
         "score": [
-          86,
-          160,
-          78.343768594359,
-          -13.5
+          156,
+          162,
+          79.135705857613,
+          -7.0
         ]
       },
       {
-        "yawDeg": 194.0,
+        "yawDeg": 171.5,
         "score": [
-          86,
-          160,
-          78.23989396161022,
-          -14.0
+          156,
+          162,
+          79.11691573328346,
+          -8.5
         ]
       },
       {
-        "yawDeg": 194.5,
+        "yawDeg": 171.0,
         "score": [
-          86,
-          160,
-          78.14132094307831,
-          -14.5
+          156,
+          162,
+          79.09338513329755,
+          -9.0
         ]
       },
       {
-        "yawDeg": 195.0,
+        "yawDeg": 170.5,
         "score": [
-          86,
-          160,
-          78.048012442963,
-          -15.0
+          156,
+          162,
+          79.07492862643261,
+          -9.5
         ]
       },
       {
-        "yawDeg": 195.5,
+        "yawDeg": 170.0,
         "score": [
-          86,
-          160,
-          77.9599334631975,
-          -15.5
+          156,
+          162,
+          79.06153949482683,
+          -10.0
         ]
       }
     ],
@@ -643,86 +643,6 @@
       "clearField": [
         [
           true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
           false
         ],
         [
@@ -743,7 +663,7 @@
         ],
         [
           true,
-          false
+          true
         ],
         [
           true,
@@ -774,40 +694,12 @@
           true
         ],
         [
-          false,
-          true
-        ],
-        [
           true,
           true
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
           true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
         ],
         [
           true,
@@ -819,66 +711,6 @@
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
           true
         ],
         [
@@ -890,20 +722,12 @@
           true
         ],
         [
-          false,
+          true,
           true
         ],
         [
           true,
           true
-        ],
-        [
-          false,
-          true
-        ],
-        [
-          true,
-          false
         ],
         [
           true,
@@ -915,26 +739,6 @@
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
           true
         ],
         [
@@ -946,7 +750,203 @@
           true
         ],
         [
-          false,
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
           true
         ],
         [
@@ -1621,86 +1621,6 @@
       "clear": [
         [
           true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
           false
         ],
         [
@@ -1721,7 +1641,7 @@
         ],
         [
           true,
-          false
+          true
         ],
         [
           true,
@@ -1752,40 +1672,12 @@
           true
         ],
         [
-          false,
-          true
-        ],
-        [
           true,
           true
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
           true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
         ],
         [
           true,
@@ -1797,66 +1689,6 @@
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
           true
         ],
         [
@@ -1868,20 +1700,12 @@
           true
         ],
         [
-          false,
+          true,
           true
         ],
         [
           true,
           true
-        ],
-        [
-          false,
-          true
-        ],
-        [
-          true,
-          false
         ],
         [
           true,
@@ -1893,26 +1717,6 @@
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
           true
         ],
         [
@@ -1924,7 +1728,203 @@
           true
         ],
         [
-          false,
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
           true
         ],
         [
@@ -1946,147 +1946,8 @@
       ],
       "opaqueMatchesAllSurfaces": true,
       "fieldEvidence": {
-        "blockedSampleRays": 159,
-        "nominalHits": [
-          {
-            "case": 13,
-            "shot": 0,
-            "tag": 16,
-            "sample": 6,
-            "start": [
-              13.271292439878493,
-              3.7423999598640654,
-              0.20800389712500397
-            ],
-            "end": [
-              16.5329616,
-              3.9743125999999998,
-              0.4699
-            ],
-            "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
-            "point": [
-              15.434499763146952,
-              3.896209281678264,
-              0.3816988796208853
-            ],
-            "distanceM": 2.175613287756691
-          },
-          {
-            "case": 13,
-            "shot": 0,
-            "tag": 16,
-            "sample": 7,
-            "start": [
-              13.271292439878493,
-              3.7423999598640654,
-              0.20800389712500397
-            ],
-            "end": [
-              16.5329616,
-              3.9743125999999998,
-              0.55245
-            ],
-            "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
-            "point": [
-              15.434499763146952,
-              3.896209281678264,
-              0.436447769152391
-            ],
-            "distanceM": 2.1806672908965505
-          },
-          {
-            "case": 13,
-            "shot": 0,
-            "tag": 16,
-            "sample": 8,
-            "start": [
-              13.271292439878493,
-              3.7423999598640654,
-              0.20800389712500397
-            ],
-            "end": [
-              16.5329616,
-              3.9743125999999998,
-              0.635
-            ],
-            "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
-            "point": [
-              15.434499763146952,
-              3.896209281678264,
-              0.4911966586838967
-            ],
-            "distanceM": 2.1870805589000573
-          },
-          {
-            "case": 40,
-            "shot": 1,
-            "tag": 16,
-            "sample": 6,
-            "start": [
-              14.141242439878493,
-              3.7423999598640654,
-              0.20800389712500397
-            ],
-            "end": [
-              16.5329616,
-              3.9743125999999998,
-              0.4699
-            ],
-            "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
-            "point": [
-              15.517258039184842,
-              3.8758250775886536,
-              0.3586792477105747
-            ],
-            "distanceM": 1.39065605123924
-          },
-          {
-            "case": 40,
-            "shot": 1,
-            "tag": 16,
-            "sample": 7,
-            "start": [
-              14.141242439878493,
-              3.7423999598640654,
-              0.20800389712500397
-            ],
-            "end": [
-              16.5329616,
-              3.9743125999999998,
-              0.55245
-            ],
-            "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
-            "point": [
-              15.517258039184842,
-              3.8758250775886536,
-              0.40617231864327075
-            ],
-            "distanceM": 1.3966001270447002
-          },
-          {
-            "case": 40,
-            "shot": 1,
-            "tag": 16,
-            "sample": 8,
-            "start": [
-              14.141242439878493,
-              3.7423999598640654,
-              0.20800389712500397
-            ],
-            "end": [
-              16.5329616,
-              3.9743125999999998,
-              0.635
-            ],
-            "name": "FE-2026: REBUILT\ufffd Playing Field / GE-26500: Tower <2> / GE-26502: Tower Upright <2> / GE-26502-01: Tower Upright Outer",
-            "point": [
-              15.517258039184842,
-              3.8758250775886536,
-              0.4536653895759669
-            ],
-            "distanceM": 1.4041263335068768
-          }
-        ]
+        "blockedSampleRays": 9,
+        "nominalHits": []
       },
       "robotEvidence": {
         "blockedSampleRays": 0,
@@ -2099,9 +1960,9 @@
       "angles": {
         "cad": {
           "yawDeg": 180.0,
-          "both": 39,
-          "atLeastOne": 80,
-          "fovBoth": 77,
+          "both": 77,
+          "atLeastOne": 81,
+          "fovBoth": 80,
           "nominal": [
             {
               "shot": "A",
@@ -2111,7 +1972,8 @@
                 3.141592653589793
               ],
               "visibleIds": [
-                15
+                15,
+                16
               ],
               "fovIds": [
                 15,
@@ -2121,11 +1983,11 @@
                 83.41068908386131,
                 83.41068908386131
               ],
-              "bothCount27": 11,
+              "bothCount27": 24,
               "oneCount27": 27,
               "cameraWorld": [
                 13.271292439878493,
-                3.7423999598640654,
+                4.3266000401359355,
                 0.20800389712500397
               ]
             },
@@ -2137,7 +1999,8 @@
                 3.141592653589793
               ],
               "visibleIds": [
-                15
+                15,
+                16
               ],
               "fovIds": [
                 15,
@@ -2147,11 +2010,11 @@
                 108.66377950776666,
                 108.66377950776666
               ],
-              "bothCount27": 15,
+              "bothCount27": 27,
               "oneCount27": 27,
               "cameraWorld": [
                 14.141242439878493,
-                3.7423999598640654,
+                4.3266000401359355,
                 0.20800389712500397
               ]
             },
@@ -2171,23 +2034,23 @@
                 16
               ],
               "marginPx": [
-                195.32655915602325,
-                195.32655915602322
+                195.32655915602322,
+                195.3265591560232
               ],
-              "bothCount27": 13,
-              "oneCount27": 26,
+              "bothCount27": 26,
+              "oneCount27": 27,
               "cameraWorld": [
                 15.323580709135069,
-                3.7423999598640654,
+                4.3266000401359355,
                 0.20800389712500397
               ]
             }
           ]
         },
         "candidate": {
-          "yawDeg": 191.0,
-          "both": 43,
-          "atLeastOne": 80,
+          "yawDeg": 174.5,
+          "both": 78,
+          "atLeastOne": 81,
           "fovBoth": 81,
           "nominal": [
             {
@@ -2198,21 +2061,22 @@
                 3.141592653589793
               ],
               "visibleIds": [
-                15
+                15,
+                16
               ],
               "fovIds": [
                 15,
                 16
               ],
               "marginPx": [
-                81.99759753728438,
-                83.75078321878573
+                83.55811891811999,
+                82.67154821926971
               ],
-              "bothCount27": 11,
+              "bothCount27": 24,
               "oneCount27": 27,
               "cameraWorld": [
                 13.271292439878493,
-                3.7423999598640654,
+                4.3266000401359355,
                 0.20800389712500397
               ]
             },
@@ -2224,21 +2088,22 @@
                 3.141592653589793
               ],
               "visibleIds": [
-                15
+                15,
+                16
               ],
               "fovIds": [
                 15,
                 16
               ],
               "marginPx": [
-                105.53926677695148,
-                108.65174800427815
+                108.77345455252038,
+                107.18117762252848
               ],
-              "bothCount27": 15,
+              "bothCount27": 27,
               "oneCount27": 27,
               "cameraWorld": [
                 14.141242439878493,
-                3.7423999598640654,
+                4.3266000401359355,
                 0.20800389712500397
               ]
             },
@@ -2258,14 +2123,14 @@
                 16
               ],
               "marginPx": [
-                181.98328638418255,
-                192.3417861254072
+                194.96437632479902,
+                189.45692902925617
               ],
-              "bothCount27": 17,
-              "oneCount27": 26,
+              "bothCount27": 27,
+              "oneCount27": 27,
               "cameraWorld": [
                 15.323580709135069,
-                3.7423999598640654,
+                4.3266000401359355,
                 0.20800389712500397
               ]
             }
@@ -2688,86 +2553,6 @@
       "clearField": [
         [
           true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
           false
         ],
         [
@@ -2788,7 +2573,7 @@
         ],
         [
           true,
-          false
+          true
         ],
         [
           true,
@@ -2819,40 +2604,12 @@
           true
         ],
         [
-          false,
-          true
-        ],
-        [
           true,
           true
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
           true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
         ],
         [
           true,
@@ -2864,66 +2621,6 @@
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
           true
         ],
         [
@@ -2935,20 +2632,12 @@
           true
         ],
         [
-          false,
+          true,
           true
         ],
         [
           true,
           true
-        ],
-        [
-          false,
-          true
-        ],
-        [
-          true,
-          false
         ],
         [
           true,
@@ -2960,26 +2649,6 @@
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
           true
         ],
         [
@@ -2991,7 +2660,203 @@
           true
         ],
         [
-          false,
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
           true
         ],
         [
@@ -3666,86 +3531,6 @@
       "clear": [
         [
           true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
           false
         ],
         [
@@ -3766,7 +3551,7 @@
         ],
         [
           true,
-          false
+          true
         ],
         [
           true,
@@ -3797,40 +3582,12 @@
           true
         ],
         [
-          false,
-          true
-        ],
-        [
           true,
           true
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
           true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
         ],
         [
           true,
@@ -3842,66 +3599,6 @@
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
-          true
-        ],
-        [
-          true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
           true
         ],
         [
@@ -3913,20 +3610,12 @@
           true
         ],
         [
-          false,
+          true,
           true
         ],
         [
           true,
           true
-        ],
-        [
-          false,
-          true
-        ],
-        [
-          true,
-          false
         ],
         [
           true,
@@ -3938,26 +3627,6 @@
         ],
         [
           true,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
-          false
-        ],
-        [
-          true,
-          true
-        ],
-        [
-          false,
           true
         ],
         [
@@ -3969,7 +3638,203 @@
           true
         ],
         [
-          false,
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
+          true
+        ],
+        [
+          true,
           true
         ],
         [
@@ -3991,147 +3856,8 @@
       ],
       "opaqueMatchesAllSurfaces": true,
       "fieldEvidence": {
-        "blockedSampleRays": 159,
-        "nominalHits": [
-          {
-            "case": 13,
-            "shot": 0,
-            "tag": 32,
-            "sample": 0,
-            "start": [
-              3.2697075601215064,
-              4.3266000401359355,
-              0.20800389712500397
-            ],
-            "end": [
-              0.0080772,
-              4.0949626,
-              0.4699
-            ],
-            "name": "GE-26502-01: Tower Upright Outer_3",
-            "point": [
-              1.106423561853032,
-              4.172965963824702,
-              0.3817071025787473
-            ],
-            "distanceM": 2.1756778001701784
-          },
-          {
-            "case": 13,
-            "shot": 0,
-            "tag": 32,
-            "sample": 1,
-            "start": [
-              3.2697075601215064,
-              4.3266000401359355,
-              0.20800389712500397
-            ],
-            "end": [
-              0.0080772,
-              4.0949626,
-              0.55245
-            ],
-            "name": "GE-26502-01: Tower Upright Outer_3",
-            "point": [
-              1.106423561853032,
-              4.172965963824702,
-              0.4364585839975093
-            ],
-            "distanceM": 2.180732131767324
-          },
-          {
-            "case": 13,
-            "shot": 0,
-            "tag": 32,
-            "sample": 2,
-            "start": [
-              3.2697075601215064,
-              4.3266000401359355,
-              0.20800389712500397
-            ],
-            "end": [
-              0.0080772,
-              4.0949626,
-              0.635
-            ],
-            "name": "GE-26502-01: Tower Upright Outer_3",
-            "point": [
-              1.106423561853032,
-              4.172965963824702,
-              0.4912100654162712
-            ],
-            "distanceM": 2.1871458159726487
-          },
-          {
-            "case": 40,
-            "shot": 1,
-            "tag": 32,
-            "sample": 0,
-            "start": [
-              2.399757560121507,
-              4.3266000401359355,
-              0.20800389712500397
-            ],
-            "end": [
-              0.0080772,
-              4.0949626,
-              0.4699
-            ],
-            "name": "GE-26502-01: Tower Upright Outer_3",
-            "point": [
-              1.023680346387655,
-              4.19332512241135,
-              0.3586884390650772
-            ],
-            "distanceM": 1.390703610778266
-          },
-          {
-            "case": 40,
-            "shot": 1,
-            "tag": 32,
-            "sample": 1,
-            "start": [
-              2.399757560121507,
-              4.3266000401359355,
-              0.20800389712500397
-            ],
-            "end": [
-              0.0080772,
-              4.0949626,
-              0.55245
-            ],
-            "name": "GE-26502-01: Tower Upright Outer_3",
-            "point": [
-              1.0236803463876551,
-              4.19332512241135,
-              0.40618440712493886
-            ],
-            "distanceM": 1.396648207816074
-          },
-          {
-            "case": 40,
-            "shot": 1,
-            "tag": 32,
-            "sample": 2,
-            "start": [
-              2.399757560121507,
-              4.3266000401359355,
-              0.20800389712500397
-            ],
-            "end": [
-              0.0080772,
-              4.0949626,
-              0.635
-            ],
-            "name": "GE-26502-01: Tower Upright Outer_3",
-            "point": [
-              1.023680346387655,
-              4.19332512241135,
-              0.45368037518480053
-            ],
-            "distanceM": 1.404175072319646
-          }
-        ]
+        "blockedSampleRays": 9,
+        "nominalHits": []
       },
       "robotEvidence": {
         "blockedSampleRays": 0,
@@ -4144,9 +3870,9 @@
       "angles": {
         "cad": {
           "yawDeg": 180.0,
-          "both": 39,
-          "atLeastOne": 80,
-          "fovBoth": 77,
+          "both": 77,
+          "atLeastOne": 81,
+          "fovBoth": 80,
           "nominal": [
             {
               "shot": "A",
@@ -4156,7 +3882,8 @@
                 6.283185307179586
               ],
               "visibleIds": [
-                31
+                31,
+                32
               ],
               "fovIds": [
                 31,
@@ -4166,11 +3893,11 @@
                 83.41152703630308,
                 83.41152703630308
               ],
-              "bothCount27": 11,
+              "bothCount27": 24,
               "oneCount27": 27,
               "cameraWorld": [
                 3.2697075601215064,
-                4.3266000401359355,
+                3.7423999598640654,
                 0.20800389712500397
               ]
             },
@@ -4182,7 +3909,8 @@
                 6.283185307179586
               ],
               "visibleIds": [
-                31
+                31,
+                32
               ],
               "fovIds": [
                 31,
@@ -4192,11 +3920,11 @@
                 108.66529340427599,
                 108.66529340427599
               ],
-              "bothCount27": 15,
+              "bothCount27": 27,
               "oneCount27": 27,
               "cameraWorld": [
                 2.399757560121507,
-                4.3266000401359355,
+                3.7423999598640654,
                 0.20800389712500397
               ]
             },
@@ -4216,23 +3944,23 @@
                 32
               ],
               "marginPx": [
-                195.33190194703346,
-                195.33190194703343
+                195.33190194703343,
+                195.33190194703334
               ],
-              "bothCount27": 13,
-              "oneCount27": 26,
+              "bothCount27": 26,
+              "oneCount27": 27,
               "cameraWorld": [
                 1.2174192908649313,
-                4.3266000401359355,
+                3.7423999598640654,
                 0.20800389712500397
               ]
             }
           ]
         },
         "candidate": {
-          "yawDeg": 191.0,
-          "both": 43,
-          "atLeastOne": 80,
+          "yawDeg": 174.5,
+          "both": 78,
+          "atLeastOne": 81,
           "fovBoth": 81,
           "nominal": [
             {
@@ -4243,21 +3971,22 @@
                 6.283185307179586
               ],
               "visibleIds": [
-                31
+                31,
+                32
               ],
               "fovIds": [
                 31,
                 32
               ],
               "marginPx": [
-                81.99947955177078,
-                83.75275804057253
+                83.55838442321294,
+                82.6718073606171
               ],
-              "bothCount27": 11,
+              "bothCount27": 24,
               "oneCount27": 27,
               "cameraWorld": [
                 3.2697075601215064,
-                4.3266000401359355,
+                3.7423999598640654,
                 0.20800389712500397
               ]
             },
@@ -4269,21 +3998,22 @@
                 6.283185307179586
               ],
               "visibleIds": [
-                31
+                31,
+                32
               ],
               "fovIds": [
                 31,
                 32
               ],
               "marginPx": [
-                105.5425813779205,
-                108.65528215375474
+                108.7739333705631,
+                107.18164112342691
               ],
-              "bothCount27": 15,
+              "bothCount27": 27,
               "oneCount27": 27,
               "cameraWorld": [
                 2.399757560121507,
-                4.3266000401359355,
+                3.7423999598640654,
                 0.20800389712500397
               ]
             },
@@ -4303,14 +4033,14 @@
                 32
               ],
               "marginPx": [
-                181.99403014555418,
-                192.35386329929375
+                194.96605580105143,
+                189.45850996532022
               ],
-              "bothCount27": 17,
-              "oneCount27": 26,
+              "bothCount27": 27,
+              "oneCount27": 27,
               "cameraWorld": [
                 1.2174192908649313,
-                4.3266000401359355,
+                3.7423999598640654,
                 0.20800389712500397
               ]
             }
